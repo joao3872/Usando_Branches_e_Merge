@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre Branches e Merge</title>
     <link rel="stylesheet" href="style/style.css">
+    <script src="script.js"></script>
 </head>
 <body>
 
@@ -17,13 +18,17 @@
                 Essa página, foi criada com a finalidade de fazer o uso de Branches e Merge.
             </p>
 
-            <p class="branch">
+            <p class="branch" onclick="branch()">
                 O que é Branches ?
             </p>
 
-            <p class="merge">
+            <div id="branch"></div>
+
+            <p class="merge" onclick="merge()">
                 O que é Merge ?
             </p>
+
+            <div id="merge"></div>
 
             <p class="text">
                 Para saber como usar Branches e Merge no Git Bash:
@@ -34,6 +39,10 @@
             </a>
         </section>
     </main>
+
+    <footer>
+        <p>&copy; Criado por João Matheus</p>
+    </footer>
     
 </body>
 </html>

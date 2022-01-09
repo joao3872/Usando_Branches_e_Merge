@@ -32,7 +32,8 @@ main {
     margin: auto;
     padding: 20px 20px 30px 20px;
     color: var(--texto);
-    margin-top: 10vh;
+    margin-top: 15vh;
+    margin-bottom: 23vh;
     text-align: center;
     line-height: 1.6;
 }
@@ -45,6 +46,7 @@ main {
     color: var(--blue-escuro);
     font: bold 16px Arial;
     line-height: 1.8;
+    cursor: pointer;
 }
 
 .container .branch:hover, .merge:hover {
@@ -63,8 +65,19 @@ main {
     background: var(--hover-blue);
 }
 
-@media screen and (min-width: 800px) {
+footer {
+    width: 100%;
+    padding: 35px;
+    background: var(--fundo);
+    text-align: center;
+    font: bold 12pt Arial;
+    color: var(--texto);
+}
+
+@media screen and (min-width: 601px) {
     .container {
         width: 55%;
+        margin-top: 20vh;
+        margin-bottom: 25vh;
     }
 }
