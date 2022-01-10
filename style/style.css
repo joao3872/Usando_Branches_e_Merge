@@ -8,7 +8,7 @@
 
 body {
     background: var(--background);
-    margin-bottom: 100vh;
+    padding: 0 0 100vh 0;
 }
 
 html {
