@@ -14,3 +14,5 @@
 ### Experimente você mesmo:
 
 * [Acesso a Página](https://joao3872.github.io/Usando_Branches_e_Merge/)
+
+### Obrigado pela Visita !
